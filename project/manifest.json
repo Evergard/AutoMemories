@@ -1,0 +1,20 @@
+{
+    "name": "Pomo",
+    "description": "Pomodoro Timer",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "48": "images/icon.png",
+        "96": "images/icon.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "notifications",
+        "alarms"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
